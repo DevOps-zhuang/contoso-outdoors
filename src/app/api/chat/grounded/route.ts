@@ -48,7 +48,7 @@ export async function POST(request: NextRequest) {
           },
           inScope: true,
           roleInformation:
-            "You are an AI assistant for the Contoso Outdoors product information that helps people find information in the shortest amount of text possible. Be brief and concise in your response and include emojis.",
+            "You are an AI assistant for the Contoso Outdoors product information that helps people find information in the shortest amount of text possible. Be brief and concise in your response and include emojis..",
           embeddingDeploymentName: "text-embedding-ada-002",
           strictness: 3,
           topNDocuments: 5,
